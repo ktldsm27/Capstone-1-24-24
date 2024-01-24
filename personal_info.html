@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Info</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <!-- assets -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  
+    <!-- end of assets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<!-- header -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid z-3 d-flex align-middle justify-content-center" >
+      <!-- logo -->
+      <div class=" navbar-brand position absolute " href="#">
+      <!-- logo -->
+      <img class="logo pt-lg-4 pt-md-0" src="logo.png" alt="logo" style="margin-top:-30px;">
+      <h2 class="collapse navbar-collapse" id="navbarSupportedContent"><em><strong>APP</strong></em><em>Cycling</em></h2>
+      </div>
+      <button class="navbar-toggler" style="margin-top:-45px;"type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+          </a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="tables.data.html"> Purchase history</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="login.html">Register</a></li>
+          </ul>
+          </li>
+          <!-- profile -->
+          <li class="nav-item">
+          
+          
+          <a class="nav-link " aria-disabled="true" href="personal_info.html">
+              <i class="fa-solid fa-user" style="color: #2e3235;"></i>
+              Profile 
+          
+          </a>
+          </li>
+      </ul>
+      <form class=" search_tab" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success search_btn" type="submit">Search</button>
+      </form>
+      <!-- icons -->
+      <div class="notifications">
+          
+          <a href=""><i class="fa-solid fa-bell" style="color: #2e3235;"></i></a>
+          <a href="chat2.html"><i class="fa-solid fa-message" style="color: #2e3235;"></i></a>
+          <a href="add_to_cart.html"><i class="fa-solid fa-cart-shopping" style="color: #2e3235;"></i></a>
+      </div>
+      </div>
+  </div>
+</nav>
+<!-- end of header -->
+  <section class="section">
+        <div class="container py-5">
+        
+          <div class="row">
+            <div class="col">
+              <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+                <ol class="breadcrumb mb-0">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="tables.data.html">Shop</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">User Profile</li>
+                  <li class="breadcrumb-item active"><a href="post-item.html">Upload/Sell</a></li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card mb-4">
+                <div class="card-body text-center">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
+                    class="rounded-circle img-fluid" style="width: 150px;">
+                  <h5 class="my-3">John Smith</h5>
+                  <p class="text-muted mb-1">Address Lorem ipsum dolor sit</p>
+                  <p class="text-muted mb-4">Additional Info</p>
+                  <div class="d-flex justify-content-center mb-2">
+                    <a href="shop.html">
+                    <button type="button" class="btn btn-primary">Shop</button></a>
+                    <a href="chat.html">
+                    <button type="button" class="btn btn-outline-primary ms-1">Message</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-4 mb-lg-0">
+                <div class="card-body p-0">
+                  <ul class="list-group list-group-flush rounded-3">
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fas fa-globe fa-lg text-warning"></i>
+                      <p class="mb-0">https://mdbootstrap.com</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-github fa-lg" style="color: #333333;"></i>
+                      <p class="mb-0">mdbootstrap</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
+                      <p class="mb-0">@mdbootstrap</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
+                      <p class="mb-0">mdbootstrap</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-facebook-f fa-lg" style="color: #3b5998;"></i>
+                      <p class="mb-0">mdbootstrap</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Manage profile information -->
+            
+            <div class="col-lg-8">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="text-muted">
+                      <p>
+                        Manage Profile
+                      </p>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="mb-0">Full Name</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" placeholder="Johnatan Smith">
+                    </div>  
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Email</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" placeholder="Johnatan@email.com">
+                    </div>
+                  </div>
+                  
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Mobile</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" placeholder="0912123123">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">address</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" placeholder="General Santos City Fatima">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row mb-4">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Password</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="password" class="form-control" placeholder="current password">
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0"></p>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="password" class="form-control border-left mb-2" placeholder="new password">
+                      <input type="password" class="form-control border-left" placeholder="confirm password">
+                    </div>
+                    <div class="col-sm-10 mt-4 ">
+                      <button type="submit" class="btn btn-success btn-sm ">Confirm changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            
+              
+            </div>
+          </div>
+        </div>
+  </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
