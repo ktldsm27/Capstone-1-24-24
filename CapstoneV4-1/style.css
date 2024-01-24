@@ -1,0 +1,174 @@
+/* 
+color pallete
+
+85a38c - gray
+F2F2E2 - white 
+82CD47 - green
+2E3235 - black
+
+
+*/
+
+
+body{
+  /*
+    background-image: url('https://images.unsplash.com/photo-1515549832467-8783363e19b6?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    */
+  
+  background: #e2eaef;
+	font-family: "Open Sans", sans-serif;
+
+}
+
+
+
+/* logo */
+
+.logo  {
+   
+    padding-top: 5px;
+    height: 150px;
+    width: 150px;
+}
+h2 {
+    color: #F2F2E2;
+}
+
+
+
+/* nav */
+nav{  
+    height: 80px;
+
+    background-color: #85a38c;
+}
+
+
+/* profile  */
+.nav-item a{
+    font-weight: bolder;
+    color: #F2F2E2;
+}
+
+
+.navbar-brand {
+    display: flex;
+}
+/* search */
+.search_tab {
+    display: flex;
+    flex: 2;
+}
+
+/* notif */
+.notifications{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    width: 100px;
+    margin: 0 10px;
+}
+
+/* dropdown */
+.dropdown-menu a{
+    color:#2E3235 ;
+}
+.dropdown-menu a:hover{
+    font-size: larger;
+}
+/* icon */
+
+.search_btn{
+    color: #F2F2E2;
+    border: #F2F2E2;
+}
+
+/* carousel */
+
+.carousel{
+    margin-bottom: 50px;
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 65vh;
+    width: 100%;
+    aspect-ratio:1/1 ;
+}
+
+content 
+.midText {
+    text-align: center;
+    margin:0 0 30px 0;
+    
+}
+
+.textList {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    font-size: 36px; /* Adjust the font size as needed */
+    color: #2e3235; /* Initial text color */
+    transition: color 0.5s ease; /* Transition for color change */
+    font-weight: bolder;
+}
+
+.listItem:hover {
+    color: #daa816; /* Change the color on hover */
+}
+
+/*product card*/
+
+.add_cart{
+  background-color:#85a38c ;
+  
+}
+.card img{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+
+}
+.add_cart a{
+  color: #F2F2E2;
+}
+
+
+
+
+  /* FORMS */
+
+
+  /* login and Register*/
+
+
+
+  .login_container, .register_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    
+  }
+  .login_form, .register_form {
+    border: 3px rgb(116, 101, 101) solid;
+    padding: 20px 30px;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.register_form:hover {
+    background-color: #85A38C;
+}
+
+.login_form:hover{
+    background-color: #85A38C;
+}
+
+/* modal carousel */
+
+
+
+
+.modal_carousel {
+   height: 50vh;
+}
